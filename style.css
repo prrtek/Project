@@ -170,7 +170,6 @@ header ul.is-sticky li a.active {
 /* start: hero section styles */
 #hero {
     background: url('images/house-1836070_1920.jpg') center center no-repeat;
-    /*background: url('https://onclickwebdesign.com/wp-content/uploads/hero_1.jpg') center center no-repeat;*/
     background-size: cover;
     position: absolute;
     top: 0;
