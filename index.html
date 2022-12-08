@@ -43,7 +43,7 @@
         <section id="hero">
             <div class="fade"></div>
             <div class="hero-text">
-                <h1>Buy and sell real estate properties</h1>
+                <h1>Buy Real Estate </h1>
                 
             </div>
         </section>
@@ -143,8 +143,8 @@
                     </div>
                 </div>
             </div>
-
-            <button class="rounded">View All Property Listings</button>
+            
+            <button class="rounded" onclick="location.href='#contact'">CONTACT US</button>
         </div>
     </section>
 
@@ -156,36 +156,36 @@
             <div class="flex">
                 <div class="card">
                     <img src="images/download.jpeg" alt="Realtor 1" />
-                    <h3>Naina</h3>
+                    <h3>Nitin</h3>
                     <p>Real Estate Agent</p>
                 </div>
 
                 <div class="card">
-                    <img src="images/s.jpeg" alt="Realtor 1" />
+                    <img src="images/s.jpeg" alt="Realtor 2" />
                     <h3>Naveen</h3>
                     <p>Real Estate Agent</p>
                 </div>
 
                 <div class="card">
-                    <img src="images/images (2).jpeg" alt="Realtor 1" />
+                    <img src="images/a.jpeg" alt="Realtor 3" />
                     <h3>Pradeep</h3>
                     <p>Real Estate Agent</p>
                 </div>
 
                 <div class="card">
-                    <img src="images/images (3).jpeg" alt="Realtor 1" />
-                    <h3>Nitya</h3>
+                    <img src="images/g.jpeg" alt="Realtor 4" />
+                    <h3>Himanshu</h3>
                     <p>Real Estate Agent</p>
                 </div>
 
                 <div class="card">
-                    <img src="images/images.jpeg" alt="Realtor 1" />
+                    <img src="images/images.jpeg" alt="Realtor 5" />
                     <h3>Praveen</h3>
                     <p>Real Estate Agent</p>
                 </div>
 
                 <div class="card">
-                    <img src="images/a.jpeg" alt="Realtor 1" />
+                    <img src="images/images(2).jpeg" alt="Realtor 6" />
                     <h3>Sahil</h3>
                     <p>Real Estate Agent</p>
                 </div>
@@ -207,7 +207,7 @@
                    <p> Action: Search our listings, see what's available, and find the perfect property for your needs today!.</p>
                 
                
-                <button class="rounded">Learn More</button>
+                <button class="rounded" onclick="location.href='#contact'">Contact Us</button>
             </div>
         </div>
     </section>
@@ -294,18 +294,18 @@
             <div class="flex">
                 <div id="form-container">
                     <h3>Contact Form</h3>
-                    <form>
+                    <form action="https://formspree.io/f/mpznvyzo" method="POST">
                         <label for="name">Name</label>
-                        <input type="text" id="name" />
+                        <input type="text" id="name" name="name" placeholder="first name" required />
 
                         <label for="email">Email</label>
-                        <input type="text" id="email" />
+                        <input type="text" id="email" name="email" placeholder="youremail@abc.com" required/>
 
                         <label for="subject">Subject</label>
-                        <input type="text" id="subject" />
+                        <input type="text" id="subject" name="subject" placeholder="Reason for Contacting Us" required/>
 
                         <label for="message">Message</label>
-                        <textarea id="message">Write your message here..</textarea>
+                        <textarea id="message" name="message" placeholder="Write your message here.We will contact you shortly" required></textarea>
 
                         <button class="rounded">Send Message</button>
                     </form>
